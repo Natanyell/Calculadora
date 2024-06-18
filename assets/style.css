@@ -34,6 +34,7 @@ input {
     font-size: 40px;
     text-align: right;
     cursor: pointer;
+    color: white;
 }
 
 input::placeholder{
@@ -42,5 +43,20 @@ input::placeholder{
 
 button{
     border: none;
-    wi
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .1);
+    cursor: pointer;
+}
+
+.igualBtn{
+    background-color: hsl(216, 100%, 59%);
+}
+.operator{
+    color: hsl(216, 100%, 59%);
 }
